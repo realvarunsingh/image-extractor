@@ -9,8 +9,6 @@ import numpy as np
 import yt_dlp as youtube_dl
 from google.cloud import vision
 
-
-
 def get_video_url(video_url, format_note='240p'):
     """
     Get the video URL for a specific format.
