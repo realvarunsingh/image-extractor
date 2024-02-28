@@ -1,0 +1,24 @@
+Brotli==1.1.0
+cachetools==5.3.3
+certifi==2024.2.2
+charset-normalizer==3.3.2
+google-api-core==2.17.1
+google-auth==2.28.1
+google-cloud-vision==3.7.1
+googleapis-common-protos==1.62.0
+grpcio==1.62.0
+grpcio-status==1.62.0
+idna==3.6
+mutagen==1.47.0
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225640867/work/dist/numpy-1.26.4-cp311-cp311-macosx_11_0_arm64.whl#sha256=b62b8b824024855c3eb209bd45bfcf60bc9a11b94cbf9d5b7b25dc503021e672
+opencv-python==4.9.0
+proto-plus==1.23.0
+protobuf==4.25.3
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycryptodomex==3.20.0
+requests==2.31.0
+rsa==4.9
+urllib3==2.2.1
+websockets==12.0
+yt-dlp==2023.12.30
