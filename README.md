@@ -1,7 +1,7 @@
 # Basic Cloud Vision Video Analysis
 
-This Python script, `cloud_vision_video_analysis.py` can be used for analyzing video frames using Google Cloud Vision API.
-It captures the first frame of a YouTube video at a specified resolution, analyzes it for labels (objects, activities, etc.), and returns those labels. (this will be expanded to every x frames, labels will be returned in a set)
+This Python script can be used to get labels from frames of a YouTube video using the Google Cloud Vision API, as a preprocessing step for using language models to analyze video content.
+It captures frames (at a set interval) of a YouTube video at a specified resolution and analyzes them for labels (objects, activities, etc.).
 Originally made for a CSE 291 final project.
 
 ## Prerequisites/Dependencies
@@ -14,10 +14,10 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-To use the script, run it from the command line, passing the YouTube video URL as an argument:
+To use the script, run it from the command line, passing arguments:
 
 ```
-python main.py <YouTube URL>
+python main.py <YouTube URL> [number of frames to skip] [frame limit]
 
 ```
 
