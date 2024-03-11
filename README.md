@@ -17,8 +17,8 @@ Before you begin, ensure you have met the following requirements:
 To use the script, run it from the command line, passing arguments:
 
 ```
-python main.py <YouTube URL> [number of frames to skip] [frame limit]
+python cloud_vision_video_analysis.py <YouTube URL> [resolution] [number of frames to skip] [frame limit] [start frame]
 
 ```
 
-You can also import the function `analyze_video_frame` to use in your own scripts.
+You can also import the function `analyze_video_frames` to use in your own scripts.
